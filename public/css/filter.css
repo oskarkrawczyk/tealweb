@@ -1,0 +1,203 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2016 Schwartzco Inc.
+        License: 1605-KCYOGP
+*/
+@font-face {
+  font-family: 'Graphik Web';
+  src: url("/public/fonts/graphik/Graphik-Medium-Web.woff2") format("woff2"), url("/public/fonts/graphik/Graphik-Medium-Web.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  unicode-range: U+65-U+90, U+97-122; }
+
+.Graphik-Medium-Web {
+  font-family: 'Graphik Web';
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url("/public/fonts/graphik/Graphik-Regular-Web.woff2") format("woff2"), url("/public/fonts/graphik/Graphik-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  unicode-range: U+65-U+90, U+97-122; }
+
+.Graphik-Regular-Web {
+  font-family: 'Graphik Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+body, button, input, textarea, select {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+  a:hover {
+    text-decoration: underline;
+    outline: none; }
+
+select {
+  cursor: pointer; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+abbr, acronym {
+  border: 0; }
+
+p {
+  line-height: 1.42em; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+  font-size: 14px; }
+
+#logo {
+  fill: #222;
+  height: 50px;
+  margin: 0 30px 0 10px; }
+
+form {
+  margin: 30px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.95); }
+  form .fieldset {
+    display: flex;
+    flex-direction: row;
+    border-left: solid 1px rgba(0, 0, 0, 0.05);
+    padding-left: 30px; }
+  form p {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative; }
+    form p svg {
+      position: absolute;
+      bottom: 6px;
+      right: 8px;
+      pointer-events: none;
+      width: 18px;
+      stroke: rgba(0, 0, 0, 0.1); }
+  form label {
+    margin-bottom: 5px; }
+  form select,
+  form input[type="text"] {
+    width: 130px;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 13px;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    text-transform: capitalize; }
+    form select:focus,
+    form input[type="text"]:focus {
+      box-shadow: 0 0 0 2px #02858D; }
+
+#results {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px; }
+  #results li {
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 1.35em;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+    transition: all 0.15s;
+    position: relative;
+    top: 0; }
+    #results li:hover {
+      top: -3px;
+      box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1); }
+  #results a {
+    display: block;
+    color: #333;
+    height: 100%; }
+    #results a:hover {
+      text-decoration: none; }
+      #results a:hover em {
+        background: rgba(0, 0, 0, 0.15); }
+  #results img {
+    width: 100%;
+    position: relative;
+    z-index: -1; }
+  #results h3 {
+    margin: 5px 10px;
+    font-weight: 500; }
+  #results section {
+    margin: 10px 10px 10px; }
+  #results em {
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 11px; }
+
+#blankslate {
+  margin: 30px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  display: none; }
+  #blankslate.visible {
+    display: flex; }

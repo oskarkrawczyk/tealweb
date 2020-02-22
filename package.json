@@ -1,0 +1,17 @@
+{
+  "name": "Teal",
+  "version": "1.0.1",
+  "scripts": {
+    "start": "gulp watch",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "browser-sync": "latest",
+    "bs-snippet-injector": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "latest",
+    "gulp-concat": "latest"
+  }
+}
