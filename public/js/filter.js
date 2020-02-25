@@ -194,8 +194,8 @@ class Filter {
     let output = []
     products.forEach((product) => {
       output.push(`<li>
-        <a href="/puma/products/${product.Index}.png" target="_blank" download>
-          <img src="/puma/products/${product.Index}.png" loading="lazy">
+        <a href="/puma/products/${product.Index}.jpg" target="_blank" download>
+          <img src="/puma/products/${product.Index}.jpg" loading="lazy">
           <h3>${product.Nazwa}</h3>
           <section>
             <em>${product.Sezon}</em>

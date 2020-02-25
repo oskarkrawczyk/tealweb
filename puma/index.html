@@ -9,117 +9,727 @@
 
     <script>
     const productsData = [
-      {
-        "Index": "372185_01",
-        "Nazwa": "Puma x Chinatown Market Future Rider",
-        "Sezon": "SS20",
-        "Sektor": "Lifestyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Buty",
-        "Kolor": "biały",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "374477_01",
-        "Nazwa": "Puma x Chinatown Market Future Rider",
-        "Sezon": "SS20",
-        "Sektor": "Lifestyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Buty",
-        "Kolor": "czarny",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "597152_01",
-        "Nazwa": "Legginsy PUMA x HELLY HANSEN",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Kobieta",
-        "Kategoria": "Legginsy",
-        "Kolor": "czarny, różowy",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "597146_15",
-        "Nazwa": "Bluza PUMA x HELLY HANSEN",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Kobieta",
-        "Kategoria": "Bluza",
-        "Kolor": "różowy, żółty",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "597145_89",
-        "Nazwa": "Spodnie dresowe PUMA x HELLY HANSEN Tailored for Sport",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Spodnie",
-        "Kolor": "czarny, żółty, biały",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "597144_89",
-        "Nazwa": "Męska kurtka dresowa PUMA x HELLY HANSEN Tailored for Sport",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Bluza",
-        "Kolor": "czarny, żółty, biały",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "372632_01",
-        "Nazwa": "Buty sportowe PUMA x HELLY HANSEN Future Rider",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Buty",
-        "Kolor": "czarny, żółty, biały",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "373109_01",
-        "Nazwa": "Męskie buty sportowe PUMA x HELLY HANSEN RS-X³ Mid",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Buty",
-        "Kolor": "czarny, żółty, biały, szary",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "022725_01",
-        "Nazwa": "PUMA x HELLY HANSEN Baseball Cap",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Akcesoria",
-        "Kolor": "czarny, żółty, biały",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      },
-      {
-        "Index": "077195_01",
-        "Nazwa": "Torba na ramię PUMA x HELLY HANSEN",
-        "Sezon": "SS20",
-        "Sektor": "Sportstyle",
-        "Kolekcja": "Mężczyzna",
-        "Kategoria": "Akcesoria",
-        "Kolor": "czarny, żółty, biały",
-        "Zdjęcie produktu": "",
-        "Data (kiedy możemy to pokazać)": ""
-      }
-    ]
+  {
+    "Index": "372185_01",
+    "Nazwa": "Puma x Chinatown Market Future Rider",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "biały"
+  },
+  {
+    "Index": "374477_01",
+    "Nazwa": "Puma x Chinatown Market Future Rider",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "597152_01",
+    "Nazwa": "Legginsy PUMA x HELLY HANSEN",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Legginsy",
+    "Kolor": "czarny, różowy"
+  },
+  {
+    "Index": "597146_15",
+    "Nazwa": "Bluza PUMA x HELLY HANSEN",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "różowy, żółty"
+  },
+  {
+    "Index": "597145_89",
+    "Nazwa": "Spodnie dresowe PUMA x HELLY HANSEN Tailored for Sport",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodnie",
+    "Kolor": "czarny, żółty, biały"
+  },
+  {
+    "Index": "597144_89",
+    "Nazwa": "Męska kurtka dresowa PUMA x HELLY HANSEN Tailored for Sport",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, żółty, biały"
+  },
+  {
+    "Index": "372632_01",
+    "Nazwa": "Buty sportowe PUMA x HELLY HANSEN Future Rider",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, żółty, biały"
+  },
+  {
+    "Index": "373109_01",
+    "Nazwa": "Męskie buty sportowe PUMA x HELLY HANSEN RS-X³ Mid",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, żółty, biały, szary"
+  },
+  {
+    "Index": "022725_01",
+    "Nazwa": "PUMA x HELLY HANSEN Baseball Cap",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, żółty, biały"
+  },
+  {
+    "Index": "077195_01",
+    "Nazwa": "Torba na ramię PUMA x HELLY HANSEN",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, żółty, biały"
+  },
+  {
+    "Index": "371570_05",
+    "Nazwa": "Buty sportowe PUMA RS-X3 Puzzle",
+    "Sezon": "FW19",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "biały, niebieski, czerwony"
+  },
+  {
+    "Index": "022590_01",
+    "Nazwa": "PUMA x RDET Bucket Hat",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Akcesoria",
+    "Kolor": "pomarańczowy"
+  },
+  {
+    "Index": "053518_13",
+    "Nazwa": "PUMA TR Bottle Sportstyle",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Unisex",
+    "Kategoria": "Akcesoria",
+    "Kolor": "różowy"
+  },
+  {
+    "Index": "075855_27",
+    "Nazwa": "PUMA Academy Waist Bag",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, brązowy"
+  },
+  {
+    "Index": "656685_01",
+    "Nazwa": "Studio Lace Strappy Bra L",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Stanik",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "656685_02",
+    "Nazwa": "Studio Lace Strappy Bra L",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Stanik",
+    "Kolor": "biały, różowy"
+  },
+  {
+    "Index": "371149_01",
+    "Nazwa": "RIDER PLAY ON",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "niebieski, zielony, czerwony, biały"
+  },
+  {
+    "Index": "371149_03",
+    "Nazwa": "RIDER PLAY ON",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "fioletowy, różowy, pomarańczowy, czarny"
+  },
+  {
+    "Index": "193131_04",
+    "Nazwa": "Ember TRL Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, turkusowy, czerwony"
+  },
+  {
+    "Index": "371964_01",
+    "Nazwa": "Rider Sandal Game On",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "niebieski, zielony, czerwony, biały"
+  },
+  {
+    "Index": "371870_02",
+    "Nazwa": "RS-X MASTER",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, niebieski"
+  },
+  {
+    "Index": "371201_01",
+    "Nazwa": "Deva 90's POP Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, różowy, fioletowy, żółty"
+  },
+  {
+    "Index": "371394_01",
+    "Nazwa": "PUMA x RANDOMEVENT Ralph Sampson Lo",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "biały, niebieski"
+  },
+  {
+    "Index": "371402_01",
+    "Nazwa": "CELL ALIEN RANDOMEVENT",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "biały, kremowy, żółty"
+  },
+  {
+    "Index": "371476_01",
+    "Nazwa": "LQD CELL OMEGA STRIPED KIT",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "niebieski, czarny, czerwony, biały"
+  },
+  {
+    "Index": "371571_02",
+    "Nazwa": "RS 9.8 FRESH",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "niebieski, czarny, czerwony, biały"
+  },
+  {
+    "Index": "371640_01",
+    "Nazwa": "RS-X3 Plas_Tech Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, różowy"
+  },
+  {
+    "Index": "371777_01",
+    "Nazwa": "Rise Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, miętowy"
+  },
+  {
+    "Index": "371777_02",
+    "Nazwa": "Rise Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, czarny"
+  },
+  {
+    "Index": "371777_03",
+    "Nazwa": "Rise Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "brązowy, czarny, różowy"
+  },
+  {
+    "Index": "371870_01",
+    "Nazwa": "RS-X MASTER",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, turkusowy, czerwony"
+  },
+  {
+    "Index": "372563_01",
+    "Nazwa": "Cali Glow Wn’s",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, srebrny"
+  },
+  {
+    "Index": "372708_01",
+    "Nazwa": "Nuage Run Cage",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, zielony, pomarańczowy"
+  },
+  {
+    "Index": "597042_01",
+    "Nazwa": "TFS OG AOP Track Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "biały, czarny"
+  },
+  {
+    "Index": "597043_01",
+    "Nazwa": "TFS OG AOP Track Pants",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodnie",
+    "Kolor": "biały, czarny"
+  },
+  {
+    "Index": "597046_02",
+    "Nazwa": "Avenir Graphic Crew",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "biały"
+  },
+  {
+    "Index": "597061_70",
+    "Nazwa": "TFS Fashion Lux Track Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Kurtka",
+    "Kolor": "pomarańczowy, czarny"
+  },
+  {
+    "Index": "597060_01",
+    "Nazwa": "TFS OG AOP Pants",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Spodnie",
+    "Kolor": "czarny, biały"
+  },
+  {
+    "Index": "597062_01",
+    "Nazwa": "TFS Fashion Unitard",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Kombinezon",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "597066_51",
+    "Nazwa": "Evide AOP Tight Dress",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Sukienka",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "597068_01",
+    "Nazwa": "Digital Love Tee",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "597068_95",
+    "Nazwa": "Digital Love Tee",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "różowy"
+  },
+  {
+    "Index": "597069_01",
+    "Nazwa": "Digital Love Dress",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Sukienka",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "597069_95",
+    "Nazwa": "Digital Love Dress",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Sukienka",
+    "Kolor": "różowy"
+  },
+  {
+    "Index": "597078_51",
+    "Nazwa": "Evide AOP Hoody",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, pomarańczowy"
+  },
+  {
+    "Index": "597169_01",
+    "Nazwa": "PUMA Club Hoody",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, czerwony"
+  },
+  {
+    "Index": "597170_01",
+    "Nazwa": "PUMA Club Sweat Pant",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodnie",
+    "Kolor": "czarny, czerwony"
+  },
+  {
+    "Index": "597886_80",
+    "Nazwa": "Recheck Pack Graphic Hoodie",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "pomarańczowy, czarny"
+  },
+  {
+    "Index": "597887_01",
+    "Nazwa": "Recheck Pack Woven Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, pomarańczowy, biały"
+  },
+  {
+    "Index": "597888_01",
+    "Nazwa": "Recheck Pack Woven Pants",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodnie",
+    "Kolor": "czarny, pomarańczowy, biały"
+  },
+  {
+    "Index": "597892_01",
+    "Nazwa": "Recheck Pack Crew Sweat Wmns",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, żółty, biały"
+  },
+  {
+    "Index": "597898_01",
+    "Nazwa": "Recheck Pack Knitted Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, pomarańczowy"
+  },
+  {
+    "Index": "597896_01",
+    "Nazwa": "Recheck Pack Graphic Pant",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodnie",
+    "Kolor": "czarny, pomarańczowy"
+  },
+  {
+    "Index": "598115_88",
+    "Nazwa": "Cropped Women's Tank Top",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Top",
+    "Kolor": "różowy, niebieski, czarny"
+  },
+  {
+    "Index": "598116_88",
+    "Nazwa": "Sport Tight Bike Short",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Legginsy, Spodenki",
+    "Kolor": "różowy, niebieski, czarny"
+  },
+  {
+    "Index": "596696_88",
+    "Nazwa": "TFS Cropped Half Zip",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "różowy, fluo"
+  },
+  {
+    "Index": "596473_89",
+    "Nazwa": "TFS OG Track Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "niebieski, zielony, czerwony, biały"
+  },
+  {
+    "Index": "596474_89",
+    "Nazwa": "TFS OG Track Pants",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodnie",
+    "Kolor": "niebieski, zielony, czerwony, biały"
+  },
+  {
+    "Index": "596464_41",
+    "Nazwa": "PUMA TFS Woven Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "biały, niebieski, czerwony, czarny"
+  },
+  {
+    "Index": "596464_01",
+    "Nazwa": "PUMA TFS Woven Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, różowy"
+  },
+  {
+    "Index": "596327_32",
+    "Nazwa": "Evide Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "miętowy"
+  },
+  {
+    "Index": "076831_01",
+    "Nazwa": "Large Waistbag",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "076906_02",
+    "Nazwa": "PUMA Deck Waist Bag",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Akcesoria",
+    "Kolor": "szary, czarny"
+  },
+  {
+    "Index": "076959_01",
+    "Nazwa": "PUMA x RHUDE Utility Vest",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Kamizelka",
+    "Kolor": "czarny, niebieski"
+  },
+  {
+    "Index": "077015_01",
+    "Nazwa": "Rider Game On Backpack",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Unisex",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, zielony, niebieski, biały"
+  },
+  {
+    "Index": "192799_08",
+    "Nazwa": "Hybrid Astro",
+    "Sezon": "SS20",
+    "Sektor": "Running",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "granatowy, czerwony"
+  },
+  {
+    "Index": "192808_07",
+    "Nazwa": "Hybrid Astro Wns",
+    "Sezon": "SS20",
+    "Sektor": "Running",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, różowy, turkusowy"
+  },
+  {
+    "Index": "193032_02",
+    "Nazwa": "Zone XT Metal Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, złoty"
+  },
+  {
+    "Index": "076627_13",
+    "Nazwa": "AT ESS grip bag",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, biały, różowy"
+  },
+  {
+    "Index": "193036_01",
+    "Nazwa": "LQDCELL Shatter TR Wns",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "żółty, niebieski, biały, kremowy"
+  },
+  {
+    "Index": "193069_03",
+    "Nazwa": "H.ST.20",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "granatowy, zielony, czerwony, biały"
+  },
+  {
+    "Index": "193083_01",
+    "Nazwa": "LQDCELL Hydra Wn's",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, różowy"
+  },
+  {
+    "Index": "193102_02",
+    "Nazwa": "Speed 600 2",
+    "Sezon": "SS20",
+    "Sektor": "Running",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, turkusowy, żółty"
+  },
+  {
+    "Index": "193104_01",
+    "Nazwa": "SPEED 300 RACER 2",
+    "Sezon": "SS20",
+    "Sektor": "Running",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "żółty"
+  },
+  {
+    "Index": "193108_01",
+    "Nazwa": "Hybrid NX Ozone FM",
+    "Sezon": "SS20",
+    "Sektor": "Running",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, żółty, pomarańczowy"
+  },
+  {
+    "Index": "193108_02",
+    "Nazwa": "Hybrid NX Ozone FM",
+    "Sezon": "SS20",
+    "Sektor": "Running",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "żółty, czarny"
+  },
+  {
+    "Index": "371389_01",
+    "Nazwa": "Cell King RHUDE",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "czarny"
+  },
+  {
+    "Index": "371392_01",
+    "Nazwa": "Ralph Sampson Lo RHUDE",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "kremowy"
+  },
+  {
+    "Index": "371569_05",
+    "Nazwa": "RS-X³ PLASTIC GULF STREAM",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "turkusowy, różowy, zielony"
+  },
+  {
+    "Index": "372884_01",
+    "Nazwa": "RS-X3 SUPER",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "biały, czerwony, czarny"
+  }
+]
     </script>
 
     <script src="/public/js/searchjs.js"></script>
