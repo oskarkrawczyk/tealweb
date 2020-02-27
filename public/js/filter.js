@@ -18,9 +18,9 @@ class Filter {
 
     // ignore some columns from the JSON data
     let ignore  = [
-      // "Index",
       "Nazwa",
-      "Zdjęcie produktu", "Data (kiedy możemy to pokazać)"
+      "Zdjęcie produktu",
+      "Cena"
     ]
     let store   = {}
     let selects = {}
@@ -198,9 +198,9 @@ class Filter {
           <img src="/puma/products/${product.Index}.jpg" loading="lazy">
           <h3>${product.Nazwa}</h3>
           <section>
-            <em>${product.Sezon}</em>
-            <em>${product.Sektor}</em>
             <em>${product.Index}</em>
+            <em>${product.Sektor}</em>
+            <em>${product.Cena}zł</em>
           </section>
         </a>
       </li>`)
