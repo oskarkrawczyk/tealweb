@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "scripts": {
     "start": "gulp watch",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "csv": "node scripts/csv2json.js"
   },
   "dependencies": {
     "browser-sync": "latest",
@@ -12,6 +13,7 @@
     "gulp-autoprefixer": "latest",
     "gulp-sass": "^3.1.0",
     "node-sass": "latest",
-    "gulp-concat": "latest"
+    "gulp-concat": "latest",
+
   }
 }

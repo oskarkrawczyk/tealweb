@@ -8,6 +8,12 @@ class Filter {
     this.results    = document.querySelector("#results")
     this.data       = productsData
 
+    SEARCHJS.setDefaults({
+      "text": true
+    })
+
+    this.textTypes = ["Index", "Nazwa"]
+
     // initial lisitng of all products
     this.buildFilters()
     this.filterProducts()
@@ -18,7 +24,6 @@ class Filter {
 
     // ignore some columns from the JSON data
     let ignore  = [
-      "Nazwa",
       "Zdjęcie produktu",
       "Cena"
     ]
@@ -40,8 +45,9 @@ class Filter {
     store["Kolor"] = this.buildColors(store["Kolor"])
 
     // fill selects with options
+
     Object.keys(selects).forEach((selectFilter) => {
-      if (selectFilter !== "Index"){
+      if (this.textTypes.indexOf(selectFilter) === -1){
         this.buildOptions(selects, selectFilter, store)
       }
     })
@@ -84,7 +90,7 @@ class Filter {
     label.innerText = filter
     let filterEl
 
-    if (filter === "Index"){
+    if (this.textTypes.indexOf(filter) > -1){
       filterEl = document.createElement("input")
       filterEl.name = filter
       filterEl.type = "text"
@@ -141,10 +147,6 @@ class Filter {
     params.forEach((param) => {
       let key, value
       [key, value] = param.split("=")
-      // if (key === "Kolor" || key === "Index"){
-      //   decoded["_text"] = true
-      // }
-      decoded["_text"] = true
 
       if (value){
         decoded[key] = decodeURIComponent(value)
@@ -172,7 +174,7 @@ class Filter {
   }
 
   filterProducts(products){
-    let filteredResults = SEARCHJS.matchArray(this.data, this.decodeParams())
+    let filteredResults    = SEARCHJS.matchArray(this.data, this.decodeParams())
     this.results.innerHTML = this.buildGallery(filteredResults)
 
     if (filteredResults.length > 0){
