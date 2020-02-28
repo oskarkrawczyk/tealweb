@@ -132,6 +132,36 @@ form {
       stroke: rgba(0, 0, 0, 0.1); }
   form label {
     margin-bottom: 5px; }
+    form label span {
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 100%;
+      height: 14px;
+      width: 14px;
+      display: inline-block;
+      text-align: center;
+      cursor: help; }
+      form label span:after {
+        content: attr(data-title);
+        padding: 10px;
+        width: 220px;
+        position: absolute;
+        top: 25px;
+        right: 80px;
+        background: #02858D;
+        text-transform: none;
+        color: #fff;
+        letter-spacing: 0;
+        border-radius: 5px;
+        text-align: left;
+        font-size: 13px;
+        z-index: 40px;
+        line-height: 1.35em;
+        transition: all 0.15s;
+        opacity: 0;
+        pointer-events: none; }
+      form label span:hover:after {
+        opacity: 1;
+        top: 18px; }
   form select,
   form input[type="text"] {
     width: 130px;

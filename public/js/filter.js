@@ -45,7 +45,6 @@ class Filter {
     store["Kolor"] = this.buildColors(store["Kolor"])
 
     // fill selects with options
-
     Object.keys(selects).forEach((selectFilter) => {
       if (this.textTypes.indexOf(selectFilter) === -1){
         this.buildOptions(selects, selectFilter, store)
@@ -87,8 +86,14 @@ class Filter {
   createFilter(filter){
     let p = document.createElement("p")
     let label = document.createElement("label")
-    label.innerText = filter
     let filterEl
+    let help = ""
+
+    if (filter === "Nazwa"){
+      help = `<span data-title="Używaj przecinka aby szukać między kolekcjami produktów. Np. 'chinatown,helly'">?</span>`
+    }
+
+    label.innerHTML = `${filter} ${help}`
 
     if (this.textTypes.indexOf(filter) > -1){
       filterEl = document.createElement("input")
@@ -149,7 +154,23 @@ class Filter {
       [key, value] = param.split("=")
 
       if (value){
-        decoded[key] = decodeURIComponent(value)
+        value = decodeURIComponent(value)
+        decoded[key] = value
+
+        // special case for one column
+        if (key === "Nazwa"){
+          let values = value.split(",")
+
+          // remove all empty values
+          values = values.filter((v) => {
+            return v !== ""
+          })
+
+          // assign array to key
+          if (values.length > 1){
+            decoded[key] = values
+          }
+        }
       }
     })
 
@@ -174,7 +195,9 @@ class Filter {
   }
 
   filterProducts(products){
-    let filteredResults    = SEARCHJS.matchArray(this.data, this.decodeParams())
+    let searchQuery = this.decodeParams()
+    // let searchQuery = { Nazwa: ["hel", "chinatown"], Sektor: "Sportstyle", Kolekcja: "Mężczyzna" }
+    let filteredResults    = SEARCHJS.matchArray(this.data, searchQuery)
     this.results.innerHTML = this.buildGallery(filteredResults)
 
     if (filteredResults.length > 0){
