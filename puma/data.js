@@ -1914,7 +1914,7 @@ const productsData = [
     "Cena": 199
   },
   {
-    "Index": "596761_90_1",
+    "Index": "596761_90",
     "Nazwa": "PUMA x CHARLOTTE OLYMPIA Classics Women's Dress",
     "Sezon": "SS20",
     "Sektor": "Sportstyle",
