@@ -30,7 +30,7 @@ const productsData = [
     "Kategoria": "Legginsy",
     "Kolor": "czarny, różowy",
     "Zdjęcie produktu": "",
-    "Cena": 189
+    "Cena": "ok. 189"
   },
   {
     "Index": "597146_15",
@@ -602,7 +602,7 @@ const productsData = [
     "Kategoria": "Legginsy, Spodenki",
     "Kolor": "różowy, niebieski, czarny",
     "Zdjęcie produktu": "",
-    "Cena": 130
+    "Cena": "ok. 130"
   },
   {
     "Index": "596696_88",
@@ -1738,6 +1738,17 @@ const productsData = [
     "Cena": 479
   },
   {
+    "Index": "519024_03",
+    "Nazwa": "PUMA x First Mile Utility Running Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Running",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Kurtka",
+    "Kolor": "Beżowy, pomarańczowy",
+    "Zdjęcie produktu": "",
+    "Cena": 479
+  },
+  {
     "Index": "193086_01",
     "Nazwa": "PUMA LQDCELL Hydra Training Shoes",
     "Sezon": "SS20",
@@ -1747,5 +1758,313 @@ const productsData = [
     "Kolor": "Czarny, biały",
     "Zdjęcie produktu": "",
     "Cena": 439
+  },
+  {
+    "Index": "519034_03",
+    "Nazwa": "PUMA x First Mile Training Anorak",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Kurtka",
+    "Kolor": "Zielony, czarny, pomarańczowy",
+    "Zdjęcie produktu": "",
+    "Cena": 399
+  },
+  {
+    "Index": "371409_01",
+    "Nazwa": "DEVA  CHARLOTTE",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, brązowy, czerwony",
+    "Zdjęcie produktu": "",
+    "Cena": 579
+  },
+  {
+    "Index": "022586_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Bucket Hat",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, brązowy",
+    "Zdjęcie produktu": "",
+    "Cena": 169
+  },
+  {
+    "Index": "022587_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Cap",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 149
+  },
+  {
+    "Index": "022781_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Visor",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Akcesoria",
+    "Kolor": "czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 149
+  },
+  {
+    "Index": "077005_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Shopper",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Akcesoria",
+    "Kolor": "transparentny, czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 339
+  },
+  {
+    "Index": "077006_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Waist Bag",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Akcesoria",
+    "Kolor": "transparentny, czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 219
+  },
+  {
+    "Index": "371408_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Cali Sport Women's Trainers",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "białe, czerwone, brązowe, czarne",
+    "Zdjęcie produktu": "",
+    "Cena": 479
+  },
+  {
+    "Index": "371405_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Love Women's Trainers",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "czarne, białe",
+    "Zdjęcie produktu": "",
+    "Cena": 479
+  },
+  {
+    "Index": "372860_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Rise Women's Trainers",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "biały, różowy, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 529
+  },
+  {
+    "Index": "371837_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA FTR Women's Leadcat Sandals",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Buty",
+    "Kolor": "czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 269
+  },
+  {
+    "Index": "596760_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Tailored for Sport Women's Track Pants",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Spodnie",
+    "Kolor": "czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 369
+  },
+  {
+    "Index": "596760_90",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Tailored for Sport Women's Track Pants",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Spodnie",
+    "Kolor": "różowy",
+    "Zdjęcie produktu": "",
+    "Cena": 369
+  },
+  {
+    "Index": "596761_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Crop Top",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Top",
+    "Kolor": "czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 199
+  },
+  {
+    "Index": "596761_90_1",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Classics Women's Dress",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Sukienka",
+    "Kolor": "różowy",
+    "Zdjęcie produktu": "",
+    "Cena": 299
+  },
+  {
+    "Index": "596762_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Classics Women's Dress",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Sukienka",
+    "Kolor": "czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 299
+  },
+  {
+    "Index": "596763_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Tee",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 179
+  },
+  {
+    "Index": "596763_02",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Tee",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "biały",
+    "Zdjęcie produktu": "",
+    "Cena": 179
+  },
+  {
+    "Index": "596763_52",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Tee",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "biały",
+    "Zdjęcie produktu": "",
+    "Cena": 179
+  },
+  {
+    "Index": "596763_57",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Tee",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "biały",
+    "Zdjęcie produktu": "",
+    "Cena": 179
+  },
+  {
+    "Index": "596763_90",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Tee",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "różowy",
+    "Zdjęcie produktu": "",
+    "Cena": 179
+  },
+  {
+    "Index": "596764_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Tights",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Legginsy",
+    "Kolor": "czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 299
+  },
+  {
+    "Index": "596765_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Women's Shorts",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Szorty",
+    "Kolor": "czarny, złoty",
+    "Zdjęcie produktu": "",
+    "Cena": 239
+  },
+  {
+    "Index": "596854_02",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Tailored for Sport AOP Women's Track Jacket",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "brązowy, czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 479
+  },
+  {
+    "Index": "596855_02",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA AOP Women's Crop Top",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Top",
+    "Kolor": "brązowy, czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 219
+  },
+  {
+    "Index": "596856_02",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA AOP Women's Shorts",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Szorty",
+    "Kolor": "brązowy, czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 269
+  },
+  {
+    "Index": "597272_01",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Crew Women's Sweatshirt",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 299
+  },
+  {
+    "Index": "597272_90",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA Crew Women's Sweatshirt",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Bluza",
+    "Kolor": "różowy",
+    "Zdjęcie produktu": "",
+    "Cena": 299
   }
 ]
