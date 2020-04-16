@@ -155,7 +155,7 @@ const productsData = [
   },
   {
     "Index": "656685_01",
-    "Nazwa": "Studio Lace Strappy Bra L",
+    "Nazwa": "Studio Lace Strappy Bra COZY",
     "Sezon": "SS20",
     "Sektor": "Training",
     "Kolekcja": "Kobieta",
@@ -782,7 +782,7 @@ const productsData = [
   },
   {
     "Index": "193083_01",
-    "Nazwa": "LQDCELL Hydra Wn's",
+    "Nazwa": "LQDCELL Hydra Wn's WORKOUT",
     "Sezon": "SS20",
     "Sektor": "Training",
     "Kolekcja": "Kobieta",
@@ -936,7 +936,7 @@ const productsData = [
   },
   {
     "Index": "517422_17",
-    "Nazwa": "A.C.E. Racerback Tank",
+    "Nazwa": "A.C.E. Racerback Tank WORKOUT",
     "Sezon": "SS20",
     "Sektor": "Training",
     "Kolekcja": "Kobieta",
@@ -1090,7 +1090,7 @@ const productsData = [
   },
   {
     "Index": "519036_01",
-    "Nazwa": "Metal Splash Splatter Tight",
+    "Nazwa": "Metal Splash Splatter Tight WORKOUT",
     "Sezon": "SS20",
     "Sektor": "Training",
     "Kolekcja": "Kobieta",
@@ -1101,7 +1101,7 @@ const productsData = [
   },
   {
     "Index": "519037_01",
-    "Nazwa": "Metal Splash Deep V Tee",
+    "Nazwa": "Metal Splash Deep V Tee WORKOUT",
     "Sezon": "SS20",
     "Sektor": "Training",
     "Kolekcja": "Kobieta",
@@ -1299,7 +1299,7 @@ const productsData = [
   },
   {
     "Index": "596299_51",
-    "Nazwa": "Evide Crew",
+    "Nazwa": "Evide Crew COZY",
     "Sezon": "SS20",
     "Sektor": "Sportstyle",
     "Kolekcja": "Kobieta",
@@ -1321,7 +1321,7 @@ const productsData = [
   },
   {
     "Index": "596302_51",
-    "Nazwa": "Evide Pants",
+    "Nazwa": "Evide Pants Cozy",
     "Sezon": "SS20",
     "Sektor": "Sportstyle",
     "Kolekcja": "Kobieta",
@@ -1673,7 +1673,7 @@ const productsData = [
   },
   {
     "Index": "193080_01",
-    "Nazwa": "PUMA Zone XT Men's Training Shoes",
+    "Nazwa": "PUMA Zone XT Men's Training Shoes WORKOUT",
     "Sezon": "SS20",
     "Sektor": "Training",
     "Kolekcja": "Mężczyzna",
@@ -1871,7 +1871,7 @@ const productsData = [
   },
   {
     "Index": "371837_01",
-    "Nazwa": "PUMA x CHARLOTTE OLYMPIA FTR Women's Leadcat Sandals",
+    "Nazwa": "PUMA x CHARLOTTE OLYMPIA FTR Women's Leadcat Sandals COZY",
     "Sezon": "SS20",
     "Sektor": "Sportstyle",
     "Kolekcja": "Kobieta",
@@ -2066,5 +2066,137 @@ const productsData = [
     "Kolor": "różowy",
     "Zdjęcie produktu": "",
     "Cena": 299
+  },
+  {
+    "Index": "519158_07",
+    "Nazwa": "4Keeps Bra WORKOUT",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Stanik",
+    "Kolor": "czarny, różowy",
+    "Zdjęcie produktu": "",
+    "Cena": 129
+  },
+  {
+    "Index": "517152_06",
+    "Nazwa": "Always On Solid 3 4 Tight WORKOUT",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Legginsy",
+    "Kolor": "czarny, różowy",
+    "Zdjęcie produktu": "",
+    "Cena": 439
+  },
+  {
+    "Index": "519158_18",
+    "Nazwa": "4Keeps Bra WORKOUT",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Stanik",
+    "Kolor": "czarny, srebrny",
+    "Zdjęcie produktu": "",
+    "Cena": 129
+  },
+  {
+    "Index": "518974_02",
+    "Nazwa": "Power Thermo R+ Tee Yellow Alert WORKOUT",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Koszulka",
+    "Kolor": "żółty",
+    "Zdjęcie produktu": "",
+    "Cena": 179
+  },
+  {
+    "Index": "518976_01",
+    "Nazwa": "Power Thermo R+ Vent Short Puma Black WORKOUT",
+    "Sezon": "SS20",
+    "Sektor": "Traning",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodenki",
+    "Kolor": "czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 199
+  },
+  {
+    "Index": "193066_01",
+    "Nazwa": "LQDCELL Hydra Puma Black-Yellow Alert WORKOUT",
+    "Sezon": "SS20",
+    "Sektor": "Training",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Buty",
+    "Kolor": "czarny, żółty",
+    "Zdjęcie produktu": "",
+    "Cena": 439
+  },
+  {
+    "Index": "596298_02",
+    "Nazwa": "Evide Form Stripe Crop Tee COZY",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Koszulka",
+    "Kolor": "biały",
+    "Zdjęcie produktu": "",
+    "Cena": 159
+  },
+  {
+    "Index": "906712_03",
+    "Nazwa": "PUMA CREW HERITAGE STRIPE COZY",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Kobieta",
+    "Kategoria": "Skarpety",
+    "Kolor": "biały",
+    "Zdjęcie produktu": "",
+    "Cena": 39
+  },
+  {
+    "Index": "581495_03",
+    "Nazwa": "MODERN SPORTS FZ Hoody COZY",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Bluza",
+    "Kolor": "czarny, szary",
+    "Zdjęcie produktu": "",
+    "Cena": 289
+  },
+  {
+    "Index": "581552_02",
+    "Nazwa": "Nu-tility Graphic Tee COZY",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Koszulka",
+    "Kolor": "biały, czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 99
+  },
+  {
+    "Index": "581503_01",
+    "Nazwa": "MODERN SPORTS Pants TR COZY",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Spodnie",
+    "Kolor": "czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 199
+  },
+  {
+    "Index": "906110_04",
+    "Nazwa": "PUMA SHORT CREW 3P COZY",
+    "Sezon": "SS20",
+    "Sektor": "Sportstyle",
+    "Kolekcja": "Mężczyzna",
+    "Kategoria": "Skarpety",
+    "Kolor": "biały, czarny",
+    "Zdjęcie produktu": "",
+    "Cena": 39
   }
 ]
