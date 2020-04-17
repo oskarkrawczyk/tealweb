@@ -87,9 +87,12 @@ class Filter {
     let tempColorStorage = []
     Object.keys(colors).forEach((color) => {
 
+      // unify case
+      let currentColor = colors[color].toLowerCase()
+
       // discard existing colors
-      if (tempColorStorage.indexOf(colors[color]) < 0){
-        tempColorStorage.push(colors[color])
+      if (tempColorStorage.indexOf(currentColor) < 0){
+        tempColorStorage.push(currentColor)
       }
     })
 
