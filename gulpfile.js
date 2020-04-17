@@ -76,5 +76,5 @@ gulp.task("filter-css", () => {
 gulp.task("watch", () => {
   browserSync.init(options.browsersync)
 
-  gulp.watch("public/scss/**/*.scss", ["css", "filter-css"])
+  gulp.watch("public/scss/**/*.scss", gulp.parallel("css", "filter-css"))
 })
