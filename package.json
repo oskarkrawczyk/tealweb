@@ -4,7 +4,8 @@
   "scripts": {
     "start": "gulp watch",
     "gulp": "gulp",
-    "csv": "node scripts/csv2json.js"
+    "csv": "node scripts/csv2json.js",
+    "images": "#convert images to JPG and build thumbs"
   },
   "dependencies": {
     "browser-sync": "latest",
@@ -15,6 +16,7 @@
     "node-sass": "latest",
     "gulp-concat": "latest",
     "csvjson-csv2json": "latest",
-    "fs": "latest"
+    "fs": "latest",
+    "consola": "latest"
   }
 }
