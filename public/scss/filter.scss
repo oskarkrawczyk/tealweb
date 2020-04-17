@@ -9,6 +9,8 @@ body {
   color: #222;
   font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
   font-size: 14px;
+  padding: 0;
+  margin: 0;
 }
 
 #logo {
@@ -136,9 +138,16 @@ form {
       top: -3px;
       box-shadow: inset 0 0 0 1px rgba(#000, 0.1), 0 5px 10px rgba(#000, 0.1);
     }
+
+    &:hover {
+      .download {
+        pointer-events: auto;
+        opacity: 1;
+      }
+    }
   }
 
-  a {
+  .tile {
     display: block;
     color: #333;
     height: 100%;
@@ -149,6 +158,27 @@ form {
       em {
         background: rgba(#000, 0.15);
       }
+    }
+  }
+
+  .download {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(#000, 0.35);
+    border-radius: 3px;
+    padding: 5px;
+    opacity: 0;
+    pointer-events: none;
+
+    svg {
+      height: 14px;
+      stroke: #fff;
+      display: block;
+    }
+
+    &:hover {
+      background: rgba(#000, 0.65);
     }
   }
 
@@ -186,5 +216,34 @@ form {
 
   &.visible {
     display: flex;
+  }
+}
+
+#preview {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgba(#000, 0.2), 0 5px 10px rgba(#000, 0.1);
+
+  img {
+    max-height: 90vh;
+  }
+}
+
+#overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(#000, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.hidden {
+    display: none;
+    pointer-events: none;
   }
 }

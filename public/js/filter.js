@@ -6,6 +6,8 @@ class Filter {
     this.filters    = document.querySelector("#filters .fieldset")
     this.blankslate = document.querySelector("#blankslate")
     this.results    = document.querySelector("#results")
+    this.preview    = document.querySelector("#preview")
+    this.overlay    = document.querySelector("#overlay")
     this.data       = productsData
 
     SEARCHJS.setDefaults({
@@ -18,6 +20,13 @@ class Filter {
     this.buildFilters()
     this.filterProducts()
     this.preselectFilters()
+    this.setupPreview()
+  }
+
+  setupPreview(){
+    this.preview.addEventListener("click", () => {
+      this.overlay.classList.add("hidden")
+    })
   }
 
   buildFilters(){
@@ -205,6 +214,53 @@ class Filter {
     } else {
       this.showBlankslate()
     }
+
+    console.clear()
+    let els = this.results.querySelectorAll("li .tile")
+
+    els.forEach((el, i) => {
+      el.addEventListener("click", (event) => {
+        event.stopPropagation()
+        event.preventDefault()
+        this.showPreview(el)
+      })
+    })
+
+    let downloads = this.results.querySelectorAll("li .download")
+
+    downloads.forEach((element, i) => {
+      element.addEventListener("click", (event) => {
+        event.stopPropagation()
+        event.preventDefault()
+        this.forceDownload(element)
+      })
+    })
+  }
+
+  forceDownload(element){
+    let url = element.href
+    let filename = url.split("/").pop()
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true);
+    xhr.responseType = "blob";
+    xhr.onload = function(){
+       var urlCreator = window.URL || window.webkitURL;
+       var imageUrl = urlCreator.createObjectURL(this.response);
+       var tag = document.createElement('a');
+       tag.href = imageUrl;
+       tag.download = filename;
+       document.body.appendChild(tag);
+       tag.click();
+       document.body.removeChild(tag);
+    }
+    xhr.send();
+  }
+
+  showPreview(element){
+    let img = preview.querySelector("img")
+    img.src = element.href
+    this.overlay.classList.remove("hidden")
   }
 
   hideBlankslate(){
@@ -219,7 +275,7 @@ class Filter {
     let output = []
     products.forEach((product) => {
       output.push(`<li>
-        <a href="//cdn.byteal.pl/puma-2/${product.Index}.jpg" target="_blank" download>
+        <a class="tile" href="//cdn.byteal.pl/puma-2/${product.Index}.jpg" download>
           <img src="//cdn.byteal.pl/puma-2/${product.Index}.jpg" loading="lazy">
           <h3>${product.Nazwa}</h3>
           <section>
@@ -227,6 +283,9 @@ class Filter {
             <em>${product.Sektor}</em>
             <em>${product.Cena}zł</em>
           </section>
+        </a>
+        <a class="download" href="//cdn.byteal.pl/puma-2/${product.Index}.jpg" download>
+          <svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="2"  fill="none" stroke-linejoin="round"><path d="M21 15v4 0c0 1.10457-.895431 2-2 2h-14l-8.74228e-08-3.55271e-15c-1.10457-4.82823e-08-2-.895431-2-2 0 0 0 0 0 0v-4"></path><polyline points="7,10 12,15 17,10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></g></svg>
         </a>
       </li>`)
     })

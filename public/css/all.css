@@ -485,8 +485,7 @@ a {
   width: 100vw;
   height: 0;
   background: #27A0BF;
-  -webkit-transform: skewY(6deg);
-          transform: skewY(6deg);
+  transform: skewY(6deg);
   z-index: 100;
   will-change: transform, height, top;
   pointer-events: none; }
@@ -602,17 +601,17 @@ a {
     color: rgba(0, 0, 0, 0.15); }
 
 #project .intro {
-  -webkit-columns: 2 250px;
-          columns: 2 250px;
-  -webkit-column-gap: 40px;
-          column-gap: 40px; }
+  -moz-columns: 2 250px;
+       columns: 2 250px;
+  -moz-column-gap: 40px;
+       column-gap: 40px; }
   #project .intro p {
     margin-bottom: 10px; }
   #project .intro.shortText {
-    -webkit-columns: 1;
-            columns: 1;
-    -webkit-column-gap: 0;
-            column-gap: 0; }
+    -moz-columns: 1;
+         columns: 1;
+    -moz-column-gap: 0;
+         column-gap: 0; }
 
 #project .quote {
   font-size: 25px;
