@@ -135,6 +135,23 @@ h2 {
   }
 }
 
+.seeAll {
+  margin-top: 60px;
+  text-align: center;
+
+  svg {
+    margin-right: 10px;
+  }
+
+  a {
+    font-size: 1.2em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 #our-recent-work,
 #brands {
   h2 {
