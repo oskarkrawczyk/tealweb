@@ -311,9 +311,9 @@ h2 {
 
 #brands ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 10px;
-  max-width: 90%;
+  max-width: 98%;
   margin: 0 auto; }
 
 #brands li {
