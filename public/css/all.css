@@ -632,15 +632,11 @@ a {
   margin: 60px auto;
   max-width: 55%; }
 
-#project .listing ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  grid-gap: 10px; }
-
 #project .listing li {
   line-height: 1.45em;
   position: relative;
-  padding-left: 20px; }
+  padding-left: 20px;
+  margin-bottom: 10px; }
   #project .listing li:before {
     content: "–";
     display: block;

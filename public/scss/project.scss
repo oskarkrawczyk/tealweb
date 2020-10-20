@@ -104,15 +104,16 @@
 
   .listing {
     ul {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-      grid-gap: 10px;
+      // display: grid;
+      // grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      // grid-gap: 10px;
     }
 
     li {
       line-height: 1.45em;
       position: relative;
       padding-left: 20px;
+      margin-bottom: 10px;
 
       &:before {
         content: "–";
