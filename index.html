@@ -216,16 +216,16 @@
             version: "v3"
           })
 
-          // api.posts
-          //   .browse({limit: 1, include: 'tags,authors'})
-          //   .then((posts) => {
-          //       posts.forEach((post) => {
-          //           console.log(post);
-          //       });
-          //   })
-          //   .catch((err) => {
-          //       console.error(err);
-          //   });
+          ghostapi.posts
+            .browse({limit: 1, include: 'tags,authors'})
+            .then((posts) => {
+                posts.forEach((post) => {
+                    console.log(post);
+                });
+            })
+            .catch((err) => {
+                console.error(err);
+            });
         </script>
       <!-- </div> -->
 
