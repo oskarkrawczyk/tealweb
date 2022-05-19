@@ -156,7 +156,8 @@ class Teal {
   }
 
   setupBlogEntry(){
-    let blogUrl = "https://byteal.pl/blog/ghost/api/v3/content/posts/?key=335890c015bbd69e43e5604455&limit=1"
+    // let blogUrl = "http://localhost:2368/ghost/api/v3/content/posts/?key=335890c015bbd69e43e5604455&limit=1"
+    let blogUrl = "http://byteal.pl/blog/ghost/api/v3/content/posts/?key=04a7035471aac45a943a2fd0fd&limit=1"
 
     fetch(blogUrl)
       .then(response => response.json())
