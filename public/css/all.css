@@ -284,6 +284,61 @@ h2 {
     .seeAll a:hover {
       text-decoration: underline; }
 
+#blog {
+  display: none; }
+  #blog h2 {
+    position: absolute;
+    top: 80px;
+    right: -10px;
+    background: #32A4C2;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 20px;
+    letter-spacing: -1px; }
+
+#blog-entries .blogEntry {
+  color: #fff;
+  position: relative;
+  display: block; }
+  #blog-entries .blogEntry .imageCont {
+    -webkit-clip-path: polygon(0% 0%, 100% 60px, 100% 100%, 0% 90%);
+            clip-path: polygon(0% 0%, 100% 60px, 100% 100%, 0% 90%);
+    height: 500px;
+    overflow: hidden; }
+    #blog-entries .blogEntry .imageCont img {
+      width: 100%;
+      display: block; }
+  #blog-entries .blogEntry .details {
+    width: 50%;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding: 40px; }
+  #blog-entries .blogEntry .readMore {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    margin-top: 20px; }
+    #blog-entries .blogEntry .readMore svg {
+      width: 22px;
+      stroke: #fff;
+      margin-left: 10px;
+      transition: margin-left 0.2s; }
+  #blog-entries .blogEntry h3 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0 0 20px;
+    letter-spacing: -2px;
+    line-height: 1.2em;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5); }
+  #blog-entries .blogEntry p {
+    font-size: 1.1em;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5); }
+  #blog-entries .blogEntry:hover h3 {
+    text-decoration: underline; }
+  #blog-entries .blogEntry:hover .readMore svg {
+    margin-left: 20px; }
+
 #our-recent-work h2,
 #brands h2 {
   font-size: 28px;

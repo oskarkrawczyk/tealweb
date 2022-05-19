@@ -18,6 +18,10 @@ var options = {
     },
     server: {
       baseDir: "./"
+    },
+    "cors": true,
+    "headers": {
+      "Access-Control-Allow-Origin": "*"
     }
   },
   sass: {

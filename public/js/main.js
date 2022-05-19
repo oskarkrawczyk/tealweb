@@ -152,6 +152,35 @@ class Teal {
 
     this.attachEvents()
     this.setDefaultPage()
+    this.setupBlogEntry()
+  }
+
+  setupBlogEntry(){
+    let blogUrl = "http://localhost:2368/ghost/api/v3/content/posts/?key=335890c015bbd69e43e5604455&limit=1"
+
+    fetch(blogUrl)
+      .then(response => response.json())
+      .then(function(data){
+        if (data.posts.length >= 1){
+          let post = data.posts.pop()
+          let template = `<a href="${post.url}" target="_blank" class="blogEntry">
+            <div class="imageCont"><img src="${post.feature_image}" alt=""></div>
+
+            <div class="details">
+              <h3>${post.title}</h3>
+              <p>${post.excerpt}</p>
+              <span class="readMore">Read the full post
+                <svg version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" d="M268 112l144 144L268 400m124-144H100"/>
+                </svg>
+              </span>
+            </div>
+            </a>`
+
+          document.querySelector('#blog-entries').innerHTML = template
+          document.querySelector('#blog').style.display = "block"
+        }
+      })
   }
 
   attachEvents(){

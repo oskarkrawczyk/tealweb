@@ -152,6 +152,87 @@ h2 {
   }
 }
 
+#blog {
+  display: none;
+
+  h2 {
+    position: absolute;
+    top: 80px;
+    right: -10px;
+    background: #32A4C2;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+}
+
+#blog-entries {
+
+  .blogEntry {
+    color: #fff;
+    position: relative;
+    display: block;
+
+    .imageCont {
+      clip-path: polygon(0% 0%, 100% 60px, 100% 100%, 0% 90%);
+      height: 500px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .details {
+      width: 50%;
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      padding: 40px;
+    }
+
+    .readMore {
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+
+      svg {
+        width: 22px;
+        stroke: #fff;
+        margin-left: 10px;
+        transition: margin-left 0.2s;
+      }
+    }
+
+    h3 {
+      font-size: 3em;
+      font-weight: 700;
+      margin: 0 0 20px;
+      letter-spacing: -2px;
+      line-height: 1.2em;
+      text-shadow: 0 0 30px rgba(#000, 0.5);
+    }
+
+    p {
+      font-size: 1.1em;
+      text-shadow: 0 0 30px rgba(#000, 0.5);
+    }
+
+    &:hover {
+      h3 {
+        text-decoration: underline;
+      }
+
+      .readMore svg {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
 #our-recent-work,
 #brands {
   h2 {
