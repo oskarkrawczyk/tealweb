@@ -358,15 +358,23 @@ class Teal {
   }
 
   addHeroImagesRatio(){
-    let heroImages = document.querySelectorAll(".hiCont img")
+    let heroImages = document.querySelectorAll(".hiCont img, .hiCont video")
 
     heroImages.forEach(function(el){
-      let tempImage = new Image()
-      tempImage.src = el.src
-      tempImage.addEventListener("load", function(){
-        let ratio = this.naturalWidth / this.naturalHeight
+      if (el.loop){
+        let ratio = el.videoWidth / el.videoHeight
+        console.log(el.videoWidth)
+
         el.parentNode.style.flex = ratio
-      })
+
+      } else {
+        let tempImage = new Image()
+        tempImage.src = el.src
+        tempImage.addEventListener("load", function(){
+          let ratio = this.naturalWidth / this.naturalHeight
+          el.parentNode.style.flex = ratio
+        })
+      }
     })
   }
 
