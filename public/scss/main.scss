@@ -183,13 +183,9 @@ h2 {
       clip-path: polygon(0% 0%, 100% 60px, 100% 100%, 0% 90%);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: 50%;
+      background-position: 50% 0%;
       overflow: hidden;
       min-height: 500px;
-
-      @media (max-width: 600px) {
-        
-      }
     }
 
     .details {
