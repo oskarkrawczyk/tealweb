@@ -167,7 +167,7 @@ class Teal {
           let post = data.posts.pop()
 
           let yourString = post.excerpt
-          let maxLength = 250
+          let maxLength = 220
           let trimmedString = yourString.substr(0, maxLength);
           trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
 

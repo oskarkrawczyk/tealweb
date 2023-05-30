@@ -157,7 +157,7 @@ h2 {
 
   h2 {
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: -10px;
     background: #32A4C2;
     color: #fff;
@@ -166,7 +166,8 @@ h2 {
     letter-spacing: -1px;
 
     @media (max-width: 600px) {
-      font-size: 15px;
+      font-size: 13px;
+      padding: 0px 10px;
     }
   }
 }
@@ -182,6 +183,7 @@ h2 {
       clip-path: polygon(0% 0%, 100% 60px, 100% 100%, 0% 90%);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: 50%;
       overflow: hidden;
       min-height: 500px;
 
