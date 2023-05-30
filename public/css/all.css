@@ -295,6 +295,9 @@ h2 {
     padding: 8px 16px;
     font-size: 20px;
     letter-spacing: -1px; }
+    @media (max-width: 600px) {
+      #blog h2 {
+        font-size: 15px; } }
 
 #blog-entries .blogEntry {
   color: #fff;
@@ -303,17 +306,19 @@ h2 {
   #blog-entries .blogEntry .imageCont {
     -webkit-clip-path: polygon(0% 0%, 100% 60px, 100% 100%, 0% 90%);
             clip-path: polygon(0% 0%, 100% 60px, 100% 100%, 0% 90%);
-    height: 500px;
-    overflow: hidden; }
-    #blog-entries .blogEntry .imageCont img {
-      width: 100%;
-      display: block; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 500px; }
   #blog-entries .blogEntry .details {
     width: 50%;
     position: absolute;
     bottom: 30px;
     left: 0;
     padding: 40px; }
+    @media (max-width: 900px) {
+      #blog-entries .blogEntry .details {
+        width: 70%; } }
   #blog-entries .blogEntry .readMore {
     font-weight: 800;
     display: flex;
@@ -331,9 +336,15 @@ h2 {
     letter-spacing: -2px;
     line-height: 1.2em;
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.5); }
+    @media (max-width: 600px) {
+      #blog-entries .blogEntry h3 {
+        font-size: 2.2em; } }
   #blog-entries .blogEntry p {
     font-size: 1.1em;
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.5); }
+    @media (max-width: 600px) {
+      #blog-entries .blogEntry p {
+        font-size: 1em; } }
   #blog-entries .blogEntry:hover h3 {
     text-decoration: underline; }
   #blog-entries .blogEntry:hover .readMore svg {

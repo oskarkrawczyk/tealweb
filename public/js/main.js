@@ -165,17 +165,23 @@ class Teal {
       .then(function(data){
         if (data.posts.length >= 1){
           let post = data.posts.pop()
-          let template = `<a href="${post.url}" target="_blank" class="blogEntry">
-            <div class="imageCont"><img src="${post.feature_image}" alt=""></div>
 
-            <div class="details">
-              <h3>${post.title}</h3>
-              <p>${post.excerpt}</p>
-              <span class="readMore">Read the full post
-                <svg version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                  <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" d="M268 112l144 144L268 400m124-144H100"/>
-                </svg>
-              </span>
+          let yourString = post.excerpt
+          let maxLength = 250
+          let trimmedString = yourString.substr(0, maxLength);
+          trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
+
+          let template = `<a href="${post.url}" target="_blank" class="blogEntry">
+            <div class="imageCont" style="background-image: url('${post.feature_image}')">
+              <div class="details">
+                <h3>${post.title}</h3>
+                <p>${trimmedString}...</p>
+                <span class="readMore">Read the full post
+                  <svg version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" d="M268 112l144 144L268 400m124-144H100"/>
+                  </svg>
+                </span>
+              </div>
             </div>
             </a>`
 
