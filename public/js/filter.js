@@ -288,7 +288,7 @@ class Filter {
             <em>${product.Cena}zł</em>
           </section>
         </a>
-        <a title="Ściągnij zdjęcie" class="download" href="//cdn.byteal.pl/puma-4/${product.Indeks}.jpg">
+        <a title="Ściągnij zdjęcie" class="download" href="//cdn.byteal.pl/puma-5/${product.Indeks}.jpg">
           <svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="2"  fill="none" stroke-linejoin="round"><path d="M21 15v4 0c0 1.10457-.895431 2-2 2h-14l-8.74228e-08-3.55271e-15c-1.10457-4.82823e-08-2-.895431-2-2 0 0 0 0 0 0v-4"></path><polyline points="7,10 12,15 17,10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></g></svg>
         </a>
       </li>`)
