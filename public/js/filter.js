@@ -279,8 +279,8 @@ class Filter {
     let output = []
     products.forEach((product) => {
       output.push(`<li>
-        <a class="tile" href="//cdn.byteal.pl/puma-4/${product.Indeks}.jpg">
-          <img src="//cdn.byteal.pl/puma-4/${product.Indeks}.jpg" loading="lazy">
+        <a class="tile" href="//cdn.byteal.pl/puma-5/${product.Indeks}.jpg">
+          <img src="//cdn.byteal.pl/puma-5/${product.Indeks}.jpg" loading="lazy">
           <h3>${product.Nazwa}</h3>
           <section>
             <em>${product.Indeks}</em>
